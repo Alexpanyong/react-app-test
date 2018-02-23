@@ -1,0 +1,17 @@
+.userIdList {
+    list-style: none;
+}
+
+.userIdList li {
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+    padding: 6px 14px;
+    -webkit-border-radius: 24px;
+    border-radius: 24px;
+    background-color: #ececec;
+}
+
+.userIdList li:hover {
+    cursor: pointer;
+}

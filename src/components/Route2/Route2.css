@@ -1,0 +1,64 @@
+.soundList {
+    list-style: none;
+}
+
+.soundList li {
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+    padding: 6px 18px;
+    -webkit-border-radius: 24px;
+    border-radius: 24px;
+    background-color: #ececec;
+}
+
+.soundList li:hover {
+    cursor: pointer;
+}
+
+.soundList li.loaded {
+    background-color: greenyellow;
+}
+
+.soundList li.loaded:hover {
+    cursor: default;
+}
+
+.soundTracksWrap > div {
+    padding: 0 10px;
+    -webkit-border-radius: 24px;
+    border-radius: 24px;
+    background-color: #fafafa;
+    border: 2px solid #ececec;
+}
+
+.soundTrack {
+    margin: 6px auto;
+    max-width: 300px;
+}
+
+.soundName {
+    display: inline-block;
+    position: relative;
+    margin: 0 10px 0 0;
+    font-size: 14px;
+}
+
+.buttonPlay {
+    display: inline-block;
+    position: relative;
+    background-color: #333333;
+    color: #ffffff;
+    margin: 4px 6px;
+    padding: 6px 16px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.buttonPlay:hover {
+    cursor: pointer;
+}
+
+audio {
+    vertical-align: middle;
+}
